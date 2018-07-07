@@ -1,9 +1,8 @@
 ![Folder](https://cdn.filepicker.io/api/file/4sKZMPYDRhOrbAC7vNAO?1)
 
-# CodeKits - react-flask-mongo-nginx Documentation
+# CodeKits - react-flask-mongo-nginx
 
-> - Code - http://github.com
-> - Version 1.0.0
+> Version 1.0.0
 
 This code structure is aimed at building and deploying web applications easily while still maintaining scalability and extensibility.
 
