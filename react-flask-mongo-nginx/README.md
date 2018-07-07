@@ -28,19 +28,20 @@ Follow the steps below to get the app running -
 1.  Clone the repository
 
     ```
-    $ git clone git@github.com
+    $ git clone https://github.com/maitray16/CodeKits.git
     ```
 
 1.  Run docker with VirtualBox
 
     ```
-    $ cd StarterApp
-    $ docker-machine create -d virtualbox starterApp
-    $ docker-machine env starterApp
-    $ eval "$(docker-machine env starterApp)"
+    $ cd CodeKits
+    $ cd react-flask-mongo-nginx
+    $ docker-machine create -d virtualbox sampleApp
+    $ docker-machine env sampleApp
+    $ eval "$(docker-machine env sampleApp)"
     $ docker-compose -f docker-compose-dev.yml build
     $ docker-compose -f docker-compose-dev.yml up -d
-    $ docker-machine ip starterApp
+    $ docker-machine ip sampleApp
 
     Visit - http://machine-IP and http://machine-IP/flask/ping
     ```
@@ -162,14 +163,12 @@ Suggested tools/libraries that can be added depending on your use case -
 
 ### Production Notes
 
-- Change the names of the container when using. Container names are defined in docker-compose files.
-
 - When using in production use the docker-compose-prod.yml files.
 
 - If you are using multiple docker-compose apps on the same server (without virtualbox), make sure you don't have multiple nginx listening on the same port.
 
 - It is a good idea to run your databases on different servers instead of bundling in with the application.
 
-- You can increase your Flask gunicorn worker count to 2 \* (number of cores) + 1. http://docs.gunicorn.org/en/stable/design.html
+- You can increase your Flask gunicorn worker count to 2 * (number of cores) + 1. http://docs.gunicorn.org/en/stable/design.html
 
 ##### Happy Coding !!!
