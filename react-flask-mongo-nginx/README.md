@@ -1,6 +1,6 @@
 # CodeKits - react-flask-mongo-nginx
 
-> Version 1.0.0
+> Version 0.1.0
 
 This code structure is aimed at building and deploying web applications easily while still maintaining scalability and extensibility.
 
