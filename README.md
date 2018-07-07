@@ -2,4 +2,8 @@
 
 # CodeKits
 
-This repository will contain starter code that anyone can use to build their applications. It is aimed at bundling various technologies that you may need to deploy an application. 
+This repository will contain starter codes bundling various technologies for building applications.
+
+Kits Available - 
+
+- react-flask-mongodb-nginx
