@@ -2,7 +2,7 @@
 
 # CodeKits
 
-This repository will contain starter codes bundling various technologies for building applications, making it easier to focus on writing core logic.
+This repository contains starter codes bundling various technologies for building applications, making it easier to focus on writing core logic. The aim is to build a repository of starter codes catering to various use cases.
 
 Kits Available - 
 
