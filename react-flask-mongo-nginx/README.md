@@ -165,7 +165,7 @@ Suggested tools/libraries that can be added depending on your use case -
 
 - If you are using multiple docker-compose apps on the same server (without virtualbox), make sure you don't have multiple nginx listening on the same port.
 
-- It is a good idea to run your databases on different servers instead of bundling in with the application.
+- It is a good idea to run your databases on different servers instead of bundling it with the application.
 
 - You can increase your Flask gunicorn worker count to 2 * (number of cores) + 1. http://docs.gunicorn.org/en/stable/design.html
 
