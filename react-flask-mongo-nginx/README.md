@@ -1,5 +1,3 @@
-![Folder](https://cdn.filepicker.io/api/file/4sKZMPYDRhOrbAC7vNAO?1)
-
 # CodeKits - react-flask-mongo-nginx
 
 > Version 1.0.0
