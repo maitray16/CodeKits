@@ -2,7 +2,7 @@
 
 # CodeKits
 
-This repository will contain starter codes bundling various technologies (frontend, backend, reverse-proxy, databases) for building applications.
+This repository will contain starter codes bundling various technologies for building applications, making it easier to focus on writing core logic.
 
 Kits Available - 
 
