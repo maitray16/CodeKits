@@ -1,0 +1,26 @@
+{
+  "info": {
+    "version": "0.1.0",
+    "description": "Swagger spec for documenting the flask server",
+    "title": "Flask"
+  },
+  "paths": {
+    "/flask/ping": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "{ 'data' : 'Pong!!' }"
+          }
+        },
+        "summary": "Sanity check"
+      }
+    }
+  },
+  "servers": [{
+    "url": ""
+  }],
+  "components": {
+    "schemas": {}
+  },
+  "openapi": "3.0.1"
+}
