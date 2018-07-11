@@ -7,3 +7,4 @@ This repository contains starter codes bundling various technologies for buildin
 Kits Available - 
 
 - [react-flask-mongodb-nginx](https://github.com/maitray16/CodeKits/tree/master/react-flask-mongo-nginx)
+- [mobx-react-flask-mongodb-nginx](https://github.com/maitray16/CodeKits/tree/master/mobx-react-flask-mongo-nginx)
